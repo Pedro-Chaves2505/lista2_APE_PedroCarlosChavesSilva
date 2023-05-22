@@ -26,6 +26,7 @@ typedef struct Disciplina
     ESTUDANTE estudantes[MAX_ESTUDANTES_POR_DISCIPLINA];
 } DISCIPLINA;
 
+//Inputs
 void receberNomePessoa(char *nome);
 void receberNomeDisciplina(char *nomeDisciplina);
 void receberFuncional(char *funcional);
